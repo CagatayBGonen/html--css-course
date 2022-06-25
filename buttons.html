@@ -53,6 +53,13 @@
     font-size: 15px;
     cursor: pointer;
     margin-left: 8px;
+    transition: box-shadow 0.15s, opacity 0.15s;
+  }
+  .tweet-button:hover {
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
+  }
+  .tweet-button:active {
+    opacity: 0.7;
   }
   .request-button {
     display: block;
@@ -62,6 +69,10 @@
     height: 36px;
     width: 120px;
     cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .request-button:hover {
+    opacity: 0.8;
   }
   .add-to-cart-button {
     background-color: rgb(255, 223, 65);
@@ -71,6 +82,10 @@
     border-radius: 18px;
     font-size: 15px;
     cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  .add-to-cart-button:hover {
+    background-color: rgb(255, 210, 65);
   }
   .sign-up-button {
     background-color: rgb(46, 164, 79);
@@ -81,6 +96,10 @@
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+  .sign-up-button:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   }
   .get-started-button {
     display: inline;
